@@ -64,7 +64,7 @@ header .themeSelector .activeTheme {
 .addTask form {
   display: flex;
   gap: 7px;
-  flex-wrap: wrap; /* Allow the form to wrap on smaller screens */
+  flex-wrap: wrap;
 }
 
 .addTask form input {
@@ -236,15 +236,15 @@ header .themeSelector .activeTheme {
 
 @media only screen and (max-width: 480px) {
   body {
-    font-size: 12px; /* Set the global font size */
+    font-size: 12px;
   }
 
   .container {
-    font-size: inherit; /* Inherit the body font size */
+    font-size: inherit;
   }
 
   header .logo span {
-    font-size: 18px; /* Keep this specific size */
+    font-size: 18px;
   }
 
   header .themeSelector span {
@@ -270,11 +270,11 @@ header .themeSelector .activeTheme {
   }
 
   .showTask li .name {
-    font-size: 14px; /* Adjust font size of task name if needed */
+    font-size: 14px;
   }
 
   .showTask li .time {
-    font-size: 10px; /* Adjust font size of time if needed */
+    font-size: 10px;
   }
 }
 
